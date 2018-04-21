@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>登陆</title>
+        <title>登录窗口</title>
         <script>
             var i = 0;
             function movenext (obj,i){ 
@@ -13,7 +13,7 @@
                 form = document.forms[0];
                 
                 if(form.elements[0].value==123&&form.elements[1].value==123)
-                   { alert("登陆成功")
+                   { alert("登录成功")
                 }
                 else if(form.elements[0].value!=123 || form.elements[1].value!=123 )
                 {
@@ -53,7 +53,7 @@
                 <td>密码:<input type = "password" maxlength="3" placeholder="请输入密码(3个数字)" onkeyup="movenext(this,1)"/></td>
             </tr>
             <tr>
-                <td><input  class="em" type = "button" value="登陆" onclick="check()" /></td>
+                <td><input  class="em" type = "button" value="登录" onclick="check()" /></td>
             </tr>
           </table>
            </form>
